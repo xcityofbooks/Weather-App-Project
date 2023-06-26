@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Now</title>
+  <html lang="EN">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+<section class="first-one"> 
+
+
+<div class="whole-card">  
+
+
+  <div class="search-bar">
+    <i class="fa-solid fa-location-dot"></i>
+    <input type="text" placeholder="Search your location" class="searchere">
+    <button class="fa-solid fa-magnifying-glass btn"></button>
+
+  </div>
+
+
+  <div class="images-details hidden">
+    <div class="pictures">
+      <img src="" alt="" class="all-pics">
+    </div>
+    <div class="text-details">
+        <p class="name-details"></p>
+        <p class="celcius"></p>
+        <p class="name-details city"></p>
+    </div>
+  </div>
+
+  <div class="weather-details hidden">
+
+    <div class="humidity">
+        <div class="text">
+          <i class="fa-solid fa-water"></i>
+             <span class="hum-details" id="humidty"></span>
+            <p class="description">Humidity</p>
+        </div>
+    </div>
+
+
+    <div class="wind-speed">
+      <div class="text">
+        <i class="fa-solid fa-wind"></i>
+           <span class="wind-details" id="wind-value"></span>
+          <p class="description">Wind Speed</p>
+      </div>
+  </div>
+
+
+
+
+  </div>
+
+</section>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
